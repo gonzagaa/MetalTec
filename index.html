@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetalTec</title>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/icon stratum.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css">
+  </head>
+  <body id="body" class="smooth-scroll-wrapper">
+    <nav id="navigation" class="">
+      <div class="wrapper">
+        <a class="logo" href="#home">
+          <img src="./assets/logo icon.png" alt="" />
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Home</a></li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#beneficios">Máquinas</a></li>
+            <li><a onclick="closeMenu()" href="#depoimentos">Sobre</a></li>
+            <li><a onclick="closeMenu()" href="#contato">Contato</a></li>
+          </ul>
+
+          <a href="#home"
+            ><img
+              class="logo"
+              onclick="closeMenu()"
+              src="./assets/logo icon.png"
+              alt=""
+          /></a>
+        </div>
+
+        <button
+          aria-expanded="false"
+          aria-label="Abrir menu"
+          onclick="openMenu()"
+          class="open-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          aria-expanded="true"
+          aria-label="Fechar menu"
+          onclick="closeMenu()"
+          class="close-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <img class="bg" src="./assets/bg metaltec.webp" alt="" />
+      <div class="blush um"></div>
+      <div class="blush dois"></div>
+
+      <div class="wrapper">
+        <div class="content">
+          <div class="text">
+            <!-- <span data-aos="fade-up" class="span">METALTEC</span> -->
+            <h1 data-aos="fade-up">Lorem ipsum, dolor sit <span>amet consectetur lorem</span></h1>
+            <p data-aos="fade-up">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ratione <span>labore optio odit voluptates</span></p>
+            <div data-aos="fade-up" class="buttons">
+              <a target="_blank" href="https://wa.link/o1fnr5"><button>Fale com um especialista</button></a>
+            </div>
+
+            <div data-aos="fade-up" class="depoimentos">
+                <img src="./assets/depoimentos.png" alt="">
+                <p>+20.000 clientes satisfeitos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1736960517">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </header>
+
+    <section id="divisa">
+      <div class="wrapper">
+        <div class="content">
+          <div class="cards">
+            <div class="card">
+              <ion-icon name="checkmark-done-outline"></ion-icon>
+              <h3>Missão</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione reiciendis accusantium</p>
+            </div>
+
+            <div class="card">
+              <ion-icon name="checkmark-done-outline"></ion-icon>
+              <h3>Visão</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione reiciendis accusantium</p>
+            </div>
+
+            <div class="card">
+              <ion-icon name="checkmark-done-outline"></ion-icon>
+              <h3>Valores</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione reiciendis accusantium</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+        <div class="wrapper">
+            <div class="content">
+                <header >
+                    <h2 data-aos="fade-up">Trabalhos Executados</h2>
+                    <p data-aos="fade-up"></p>
+                </header>
+
+                <div class="cards">
+                    <div data-aos="fade-up" class="card">
+                        <img src="./assets/icons/check metal.png" alt="">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque</p>
+
+                        <div class="topics">
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                            <div class="topic">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" class="card">
+                      <img src="./assets/icons/check metal.png" alt="">
+                      <h3>Lorem ipsum</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque</p>
+
+                      <div class="topics">
+                          <div class="topic">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                              <p>Lorem ipsum dolor</p>
+                          </div>
+                          <div class="topic">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                              <p>Lorem ipsum dolor</p>
+                          </div>
+                          <div class="topic">
+                              <ion-icon name="checkmark-outline"></ion-icon>
+                              <p>Lorem ipsum dolor</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div data-aos="fade-up" class="card">
+                    <img src="./assets/icons/check metal.png" alt="">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque</p>
+
+                    <div class="topics">
+                        <div class="topic">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="topic">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="topic">
+                            <ion-icon name="checkmark-outline"></ion-icon>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="card">
+                  <img src="./assets/icons/check metal.png" alt="">
+                  <h3>Lorem ipsum</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque</p>
+
+                  <div class="topics">
+                      <div class="topic">
+                          <ion-icon name="checkmark-outline"></ion-icon>
+                          <p>Lorem ipsum dolor</p>
+                      </div>
+                      <div class="topic">
+                          <ion-icon name="checkmark-outline"></ion-icon>
+                          <p>Lorem ipsum dolor</p>
+                      </div>
+                      <div class="topic">
+                          <ion-icon name="checkmark-outline"></ion-icon>
+                          <p>Lorem ipsum dolor</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div data-aos="fade-up" class="card">
+                <img src="./assets/icons/check metal.png" alt="">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque</p>
+
+                <div class="topics">
+                    <div class="topic">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                    <div class="topic">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                    <div class="topic">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="card">
+              <img src="./assets/icons/check metal.png" alt="">
+              <h3>Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque</p>
+
+              <div class="topics">
+                  <div class="topic">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                      <p>Lorem ipsum dolor</p>
+                  </div>
+                  <div class="topic">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                      <p>Lorem ipsum dolor</p>
+                  </div>
+                  <div class="topic">
+                      <ion-icon name="checkmark-outline"></ion-icon>
+                      <p>Lorem ipsum dolor</p>
+                  </div>
+              </div>
+          </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="maquinas">
+      <div class="content">
+        <div data-aos="fade-up" class="card">
+          <div class="image">
+            <img src="./assets/maquina 1 metal.webp" alt="">
+          </div>
+
+          <div class="text">
+            <div class="wrapper">
+              <h3>Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.</p>
+              <a href="#"><button>Saiba mais</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="card">
+          <div class="image">
+            <img src="./assets/maquina 2 metal.webp" alt="">
+          </div>
+
+          <div class="text">
+            <div class="wrapper">
+              <h3>Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.</p>
+              <a href="#"><button>Saiba mais</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="card">
+          <div class="image">
+            <img src="./assets/maquina 3 metal.webp" alt="">
+          </div>
+
+          <div class="text">
+            <div class="wrapper">
+              <h3>Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.</p>
+              <a href="#"><button>Saiba mais</button></a>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" class="card">
+          <div class="image">
+            <img src="./assets/maquina 4 metal.webp" alt="">
+          </div>
+
+          <div class="text">
+            <div class="wrapper">
+              <h3>Lorem ipsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus.</p>
+              <a href="#"><button>Saiba mais</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="wrapper">
+          <div class="content">
+              <img class="mobile" src="./assets/bg metal.webp" alt="">
+
+              <header data-aos="fade-up-right">
+                  <h2>Conheça a nossa <span>história</span>!</h2>
+
+                  <div class="cards">
+                      <div class="card">
+                          <h3><ion-icon name="chevron-forward-outline"></ion-icon>Lorem ipsum dolor, sit amet dolor, sit amet</h3>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                      </div>
+
+                      <div class="card">
+                        <h3><ion-icon name="chevron-forward-outline"></ion-icon>Lorem ipsum dolor, sit amet dolor, sit amet</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3><ion-icon name="chevron-forward-outline"></ion-icon>Lorem ipsum dolor, sit amet dolor, sit amet</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="card">
+                      <h3><ion-icon name="chevron-forward-outline"></ion-icon>Lorem ipsum dolor, sit amet dolor, sit amet</h3>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                  </div>
+                  </div>
+              </header>
+
+              <div data-aos="fade-up-left" class="image">
+                  <img class="desktop" src="./assets/metaltec banner branco.webp" alt="">
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="wrapper">
+        <div class="content">
+          <header data-aos="fade-up">
+            <h2><span>Entre em contato</span> conosco</h2>
+            <!-- <p>Estamos aqui para te ajudar!</p> -->
+            <a target="_blank" href=""><button>Fale conosco agora mesmo</button></a>
+          </header>
+
+          <div class="cards">
+            <div data-aos="fade-up-left" class="card">
+                <ion-icon name="call-outline"></ion-icon>
+                <div class="text">
+                  <h3>Telefone</h3>
+                  <p><a target="_blank" href="tel:+55-62-00000-0000">(00) 0000-0000</a></p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="card">
+              <ion-icon name="location-outline"></ion-icon>
+              <div class="text">
+                <h3>Endereço</h3>
+                <p>Endereço metaltec</p>
+              </div>
+            </div>
+
+            <div data-aos="fade-up-right" class="card">
+                <ion-icon name="mail-outline"></ion-icon>
+                <div class="text">
+                  <h3>Email</h3>
+                  <p>contato@metaltec.com.br</p>
+                </div>
+            </div>
+          </div>
+
+          <div id="suporte">
+              <div class="content">
+                    <div data-aos="fade-up-left" class="whatsapp">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+        
+                        <p>Receba suporte <span>diretamente pelo seu whatsapp.</span></p>
+                    </div>
+        
+                    <div data-aos="fade-up" class="image">
+                        <img src="./assets/metaltec banner.webp" alt="">
+                    </div>
+        
+                    <div data-aos="fade-up-right" class="ajuda">
+                        <span><ion-icon name="flash-outline"></ion-icon> Suporte rápido</span>
+                        <h3>Precisa de <span>ajuda?</span></h3>
+                        <p>Nossa equipe <span>está pronta</span> para conversar com você!</p>
+                        <a target="_blank" href="https://wa.link/o1fnr5"><button>Entrar em contato</button></a>
+                    </div>
+              </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="wrapper">
+          <div class="content">
+              <img class="logo" src="./assets/logo icon.png" alt="">
+
+              <div class="navigation">
+                  <h3>Navegação</h3>
+                  <p><a onclick="closeMenu()" href="#home">Home</a></p>
+                  <p><a onclick="closeMenu()" href="#services">Serviços</a></p>
+                  <p><a onclick="closeMenu()" href="#beneficios">Máquinas</a></p>
+                  <p><a onclick="closeMenu()" href="#depoimentos">Sobre</a></p>
+                  <p><a onclick="closeMenu()" href="#contato">Contato</a></p>
+              </div>
+  
+              <div class="contato">
+                  <h3>Conecte-se conosco</h3>
+                  <p>endereco</p>
+                  <p>email</p>
+                  <p><a target="_blank" href="tel:+1-689-307-5513">numero</a></p>
+              </div>
+  
+              <div class="redes-sociais">
+                  <h3>Social</h3>
+                  <div class="icons">
+                      <a target="_blank" href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+                      <a target="_blank" href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script> 
+    <script>
+      // Initialize Lenis with options
+      const lenis = new Lenis({
+      smooth: true,            // Ativa o scroll suave
+      duration: 1.1,           // Define a duração do scroll (maior valor deixa mais lento)
+      easing: (t) => 1 - Math.pow(1 - t, 4) // Função de easing para suavidade
+      });
+
+      // Listen for the scroll event and log the event data
+      lenis.on('scroll', (e) => {
+      console.log(e);
+      });
+
+      // Use requestAnimationFrame to continuously update the scroll
+      function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+  </script>
+  </body>
+</html>

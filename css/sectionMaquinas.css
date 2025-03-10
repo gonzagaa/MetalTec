@@ -1,0 +1,55 @@
+#maquinas {
+    overflow: hidden;
+    position: relative;
+    background: #ededed;
+    padding-block: 0;
+}
+
+#maquinas .image {
+    overflow: hidden;
+    aspect-ratio: 16/7;
+}
+
+#maquinas .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#maquinas .text {
+    padding-block: 3rem;
+}
+
+#maquinas .text h3 {
+    font-size: 2rem;
+}
+
+#maquinas .text p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 1080px) {
+    section#maquinas .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section#maquinas .card:nth-child(even) {
+        grid-template-areas: "a b";
+    }
+
+    section#maquinas .card:nth-child(even) .image {
+        grid-area: b;
+    }
+
+    section#maquinas .text .wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
