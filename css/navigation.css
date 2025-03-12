@@ -50,7 +50,7 @@
   
     backdrop-filter: blur(19px) saturate(180%);
     -webkit-backdrop-filter: blur(19px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.245);
+    background-color: rgba(0, 0, 0, 0.857);
   
     width: 100vw;
   
@@ -98,7 +98,7 @@
   nav.scroll {
     backdrop-filter: blur(19px) saturate(180%);
     -webkit-backdrop-filter: blur(19px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.284);
+    background-color: rgba(0, 0, 0, 0.753);
   }
   
   nav#navigation.scroll path {
