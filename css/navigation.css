@@ -50,15 +50,14 @@
   
     backdrop-filter: blur(19px) saturate(180%);
     -webkit-backdrop-filter: blur(19px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.857);
+    background-color: rgba(255, 255, 255, 0.857);
   
     width: 100vw;
   
     z-index: 100;
   
     transition: all 300ms ease-in-out;
-  
-    border-bottom: 2px solid #4f4f4f;
+
   }
   
   nav .wrapper {
@@ -98,7 +97,7 @@
   nav.scroll {
     backdrop-filter: blur(19px) saturate(180%);
     -webkit-backdrop-filter: blur(19px) saturate(180%);
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(255, 255, 255, 0.753);
   }
   
   nav#navigation.scroll path {
@@ -185,7 +184,7 @@
   } 
   
   .menu ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 400;
     transition: all 200ms ease-in-out;
@@ -290,10 +289,6 @@
         display: none;
       }
   
-      nav#navigation {
-        border-bottom: 2px solid #4f4f4f81;
-      }
-    
       nav#navigation .menu {
         display: flex;
         align-items: center;
@@ -307,7 +302,7 @@
       } 
     
       nav#navigation .menu ul li a {
-        color: #fff;
+        color: #000000;
         font-weight: 400;
         opacity: .9;
       }
@@ -331,7 +326,7 @@
       nav#navigation .menu li a::after {
         content: '';
         width: 0%;
-        height: 2px;
+        height: 4px;
         background-color: var(--orange);
     
         position: relative;

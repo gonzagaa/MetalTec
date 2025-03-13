@@ -1,5 +1,5 @@
 footer {
-    background: #000000;
+    background: #eaeaea;
     overflow: hidden;
     position: relative;
 
@@ -31,19 +31,19 @@ footer div {
 
 footer .content h3 {
     font-size: 2rem;
-    color: var(--color-text);
+    color: #000;
     margin-bottom: 1rem;
 }
 
 footer .content p {
     font-size: 1.6rem;
-    color: #9b9b9b;
+    color: #000000;
     font-family: var(--interV);
     cursor: pointer;
 }
 
 footer .content p a {
-    color: #9b9b9b;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -63,7 +63,7 @@ footer div.redes-sociais a {
 }
 
 footer .redes-sociais ion-icon {
-    color: var(--color-text);
+    color: #000;
     font-size: 2rem;
 }
   
