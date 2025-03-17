@@ -9,11 +9,17 @@
 
 #sobre .cards {
     display: flex;
-    margin-top: 4rem;
+    margin-top: 1rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
+}
+
+#sobre p {
+    color: #fff;
+    line-height: 1.6;
+    font-size: 1.4rem;
 }
 
 #sobre .cards .card {
