@@ -9,7 +9,6 @@ footer {
 footer .logo {
     width: 25rem;
     margin-bottom: 2rem;
-    margin-top: -4rem;
 
     filter: drop-shadow(0 0 10px #ffffff41);
 }
@@ -104,6 +103,5 @@ footer .redes-sociais ion-icon {
     }
 
     footer#footer .content img.logo {
-        margin-top: -6rem;
     }
 }  
