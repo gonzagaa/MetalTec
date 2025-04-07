@@ -55,7 +55,7 @@
     section#divisa .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        width: 90%;
+        width: 70%;
         top: -45%;
     }
 }

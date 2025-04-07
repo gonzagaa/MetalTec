@@ -1,8 +1,11 @@
 #maquinas {
     overflow: hidden;
     position: relative;
-    background: #ededed;
     padding-block: 0;
+}
+
+#maquinas header {
+    margin-bottom: 3rem;
 }
 
 #maquinas .image {
@@ -36,6 +39,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    section#maquinas header {
+        margin-bottom: 6rem;
+    }
+
     section#maquinas .card:nth-child(even) {
         grid-template-areas: "a b";
     }
@@ -44,12 +51,31 @@
         grid-area: b;
     }
 
+    section#maquinas img {
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    section#maquinas .card:nth-child(even) img {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    section#maquinas .text h3 {
+        font-size: 3rem;
+    }
+
+    section#maquinas .text p {
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
     section#maquinas .text .wrapper {
         height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        padding-inline: 25%;
     }
 
 }

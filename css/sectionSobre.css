@@ -9,17 +9,11 @@
 
 #sobre .cards {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 4rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-}
-
-#sobre p {
-    color: #fff;
-    line-height: 1.6;
-    font-size: 1.4rem;
 }
 
 #sobre .cards .card {
@@ -91,41 +85,6 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-    }
-
-    section#sobre .cards {
-        width: 100%;
-        gap: 1rem;
-    }
-
-    section#sobre .card {
-        width: 100%;
-        overflow: hidden;
-        cursor: pointer;
-        border-radius: 1rem;
-    }
-
-    section#sobre .card h3 {
-        font-size: 1.8rem;
-    }
-
-    section#sobre .card p {
-        padding-left: 1rem;
-        position: absolute;
-        transform: translateY(50%);
-        opacity: 0;
-
-        transition: all 700ms ease-in-out;
-    }
-
-    section#sobre .card:hover p {
-        position: initial;
-        transform: translateY(0);
-        opacity: 1;
-    }
-
-    section#sobre .card:hover {
-        background: linear-gradient(130deg, #000, #080601);
     }
 
     section#sobre img.mobile {
