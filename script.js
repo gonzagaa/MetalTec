@@ -53,8 +53,37 @@ if (larguraDaTela < 800) {
       loop: true,
       grabCursor: true,
       navigation: {
-        nextEl: ".swiper-button-prev",
-        prevEl: ".swiper-button-next",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+}
+
+if (larguraDaTela < 800) {
+  var swiper6 = new Swiper(".mySwiper6", {
+    cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+  });
+} else {
+  var swiper6 = new Swiper(".mySwiper6", {
+      slidesPerView: 7,
+      spaceBetween: 20,
+      loop: true,
+      grabCursor: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
       pagination: {
         el: ".swiper-pagination",
